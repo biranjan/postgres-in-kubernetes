@@ -3,7 +3,9 @@ Run postgress db server in kubernetes using config maps or using secrets to add 
 
 ## Run the command 
 
-`   kubectl create namespace $var1
+`  
+    
+    kubectl create namespace $var1
 
     kubectl apply -f ./secret-config.yaml
 
